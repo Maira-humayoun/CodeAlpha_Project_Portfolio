@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Reset some default browser styles */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Apply a clean and modern font to the entire page */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9; /* Light gray background color */
+            color: #333; /* Dark gray text color */
+        }
+
+        /* Main Content - Projects Page */
+        #projects {
+            max-width: 800px;
+            margin: 50px auto;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            color: #333; /* Dark gray color */
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Style for each project container */
+        .project {
+            border: 2px solid #ddd; /* Border around each project container */
+            border-radius: 10px;
+            margin-bottom: 30px;
+            padding: 20px;
+            display: flex;
+            flex-direction: row; /* Align children in a row */
+            justify-content: space-between; /* Add space between image and text */
+            align-items: center; /* Center items vertically */
+        }
+
+        /* Style for project titles */
+        .project h3 {
+            font-size: 1.8em;
+            color: #00796b; /* Dark teal color */
+            margin-bottom: 10px;
+        }
+
+        /* Style for project descriptions */
+        .project p {
+            font-size: 1.2em;
+            color: #555; /* Slightly lighter gray color */
+            line-height: 1.5;
+        }
+
+        /* Style for project images */
+        .project img {
+            max-width: 40%; /* Adjust the width of the image */
+            margin-left: 20px; /* Add space between image and text */
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333; /* Dark gray background color */
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff; /* White text color */
+            margin: 0 20px;
+            font-size: 1.2em;
+        }
+
+        /* Change link color on hover */
+        nav a:hover {
+            color: #00bcd4; /* Light blue color */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333; /* Dark gray background color */
+            color: #fff; /* White text color */
+            font-size: 1.2em;
+        }
+
+    </style>
+    <title>Maira - Project</title>
+</head>
+<body>
+    <form action="projects.php" method="post" align="center">
+
+    <!-- Main Content - Projects Page -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <!-- Project 1: Library Management System (ITC) -->
+        <div class="project">
+            <div>
+                <h3>Project 1: Library Management System</h3>
+                <p>
+                    Developed a Library Management System as part of the Information Technology course.
+                    The system allows librarians to manage books, users, and borrowing information efficiently.
+                </p>
+            </div>
+            <!-- Add relevant image for Project 1 -->
+            <img src="proj1.jpg" alt="Library Management System Image">
+        </div>
+
+        <!-- Project 2: Crossword Game (PF) -->
+        <div class="project">
+            <div>
+                <h3>Project 2: Crossword Game</h3>
+                <p>
+                    Created an interactive Crossword Game as a project for the Programming Fundamentals course.
+                    The game challenges users to solve crossword puzzles with varying difficulty levels.
+                </p>
+            </div>
+            <!-- Add relevant image for Project 2 -->
+            <img src="proj2.jpg" alt="Crossword Game Image">
+        </div>
+
+        <!-- Project 3: Random Fun Generator (Web Development) -->
+        <div class="project">
+            <div>
+                <h3>Project 3: Random Fun Generator</h3>
+                <p>
+                    Designed and implemented a Random Fun Generator as a personal project in web development.
+                    The generator offers a variety of fun activities or ideas for users to explore when they're looking for something interesting to do.
+                </p>
+            </div>
+            <!-- Add relevant image for Project 3 -->
+            <img src="proj3.png" alt="Random Fun Generator Image">
+        </div>
+    </section>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="new.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Maira Humayoun - Web Developer</p>
+    </footer>
+
+</body>
+</html>
